@@ -3,13 +3,13 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyCxu4w_CpkKtZi_o8tuQ-LMkYRSor8aMio",
-    authDomain: "crwn-db-c9d3f.firebaseapp.com",
-    projectId: "crwn-db-c9d3f",
-    storageBucket: "crwn-db-c9d3f.appspot.com",
-    messagingSenderId: "469761612060",
-    appId: "1:469761612060:web:d2f68f5a39d65d4da102d9",
-    measurementId: "G-NVC52K366Y"
+    apiKey: `${process.env.REACT_APP_UNSPLASH_KEY}`,
+    authDomain: `${process.env.REACT_APP_authDomain}`,
+    projectId: `${process.env.REACT_APP_projectId}`,
+    storageBucket: `${process.env.REACT_APP_storageBucket}`,
+    messagingSenderId: `${process.env.REACT_APP_messagingSenderId}`,
+    appId: `${process.env.REACT_APP_appId}`,
+    measurementId: `${process.env.REACT_APP_measurementId}`
 };
 
 
